@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="320"
+      height="320"
+      style="background-color: black"
+    >
+    </canvas>
+    <p id="myScore"></p>
+    <p id="myScore2"></p>
+    <button id="Start" type="button" onclick="location.reload()">
+      Start New Game
+    </button>
+    <section class="control">
+      <button id="slow"><i class="fa-solid fa-arrow-left"></i></button>
+      <button id="fast"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

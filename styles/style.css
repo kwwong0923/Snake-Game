@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #myCanvas {
+  border: 5px solid lightgreen;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+body #myScore {
+  margin-top: 1rem;
+}
+body #myScore,
+body #myScore2 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+body #Start {
+  padding: 0.25rem 0.5rem;
+  background-color: yellow;
+  font-size: 1.15rem;
+  display: block;
+  margin-top: 15px;
+}
+body section.control #slow,
+body section.control #fast {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+body section.control #slow i,
+body section.control #fast i {
+  font-size: 2rem;
+  pointer-events: none;
+}/*# sourceMappingURL=style.css.map */
